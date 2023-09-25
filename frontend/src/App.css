@@ -1,0 +1,43 @@
+.div{
+    text-align: -webkit-center;
+}
+ /* ContactDetails.css */
+.contact-details {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.contact-info {
+  margin-top: 20px;
+}
+
+.contact-info p {
+  margin: 5px 0;
+}
+.target{
+  animation: flowing 20s linear infinite;
+  transform: translateX(100%);
+  
+}
+
+@keyframes flowing {
+  100% {
+    transform: translateX(-100%);
+  }
+}
+ .form{
+  background-color: aqua;
+ }
+
+.field{
+
+  cursor: pointer;
+   background: border-box;
+}
+ .happy{
+  width: fit-content;
+  height: fit-content;
+ }
