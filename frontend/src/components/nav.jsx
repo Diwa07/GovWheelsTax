@@ -4,7 +4,7 @@ import { NavLink ,Link} from 'react-router-dom'
 
 const Nav = () => {
   return (
-    <nav className='h-[7rem]  items-center  justify-between   bg-[rgb(10,87,154)] flex  '> 
+    <nav className='h-[5rem]  items-center  justify-between   bg-[rgb(10,87,154)] flex  '> 
    
 
 

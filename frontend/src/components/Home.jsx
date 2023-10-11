@@ -18,9 +18,9 @@ const Home = () => {
     <Nav />
     <Contact/>
     
-    <div className='  h-full justify-center     bg-[#92b3c9]    '> 
+    <div className='  h-full justify-center overflow-hidden    bg-[#92b3c9]    '> 
   
-    <img src={tax} alt='' className='h-[34.9rem] rounded-md w-[80%] ' />
+    <img src={tax} alt='' className='h-full rounded-md w-[80%] ' />
        </div>
 
 <Footer/>
