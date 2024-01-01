@@ -37,11 +37,11 @@ const [successMessage, setSuccessMessage] = useState('');
     <div className='w-screen h-screen flex flex-col justify-between  overflow-hidden  bg-[#c7d6a4]  '>
     <Nav />
     <Contact/>
-    <div className='   h-full   '> 
+    <div className='h-full '> 
       <div className=' border  h-full border-[green] w-full bg-gray-100 '>
 
 
-      <div className="  mt-4 bg-gray-100 ">
+      <div className="mt-4 bg-gray-100 ">
   <h2 className="text-2xl font-semibold mb-7"> <center> Tax_payment</center></h2>
      
       <Formik initialValues={initialValues} onSubmit={handleSubmit}>
@@ -130,7 +130,7 @@ const [successMessage, setSuccessMessage] = useState('');
           
           <div className="mb-4"> <center> <button
               type="submit"
-              className="bg-blue-500 text-white px-4 py-2 rounded-md hover:bg-blue-600"
+              className="px-4 py-2 text-white bg-blue-500 rounded-md hover:bg-blue-600"
             >
              Submit 
             </button></center>
@@ -143,7 +143,7 @@ const [successMessage, setSuccessMessage] = useState('');
        
        
        </div>
-       <Footer/>
+   <div className='z-20 '> <Footer/></div>  
 
      </div>
   );

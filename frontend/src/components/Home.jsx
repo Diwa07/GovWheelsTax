@@ -20,7 +20,7 @@ const Home = () => {
     
     <div className='  h-full justify-center overflow-hidden    bg-[#92b3c9]    '> 
   
-    <img src={tax} alt='' className='h-full rounded-md w-[80%] ' />
+    <img src={tax} alt='' className='h-full  object-cover rounded-md w-[80%] ' />
        </div>
 
 <Footer/>
